@@ -635,7 +635,7 @@ python main.py -checklog
 
 ## 👨‍💻 Utvecklare
 
-**Bruno Segna**
+**äppelkaka**
 
 ---
 
