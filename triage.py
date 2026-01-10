@@ -12,6 +12,9 @@ ALLOWED_IPS = {
     "8.8.8.8",
     "1.1.1.1"
 }
+
+#Case-sensitive, folders name is "Data" not "data" in the catalog, I suspect this can be the case why it's not reading the IP-files in the catalog 
+
 #Looking in the live_ip_folder name "data"
 def load_blocked_ips(live_ip_folder="data"):
     """
