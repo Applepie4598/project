@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/a2a18abb-fcf7-4ead-a6c1-2a6b05e3f647
 
 
 
-https://github.com/user-attachments/assets/078e5ce8-824f-4068-985c-fad6dac3f66a
+
 
 
 # SOC IP Triage Tool
