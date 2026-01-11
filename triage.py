@@ -15,8 +15,8 @@ ALLOWED_IPS = {
 
 #Case-sensitive, folders name is "Data" not "data" in the catalog, I suspect this can be the case why it's not reading the IP-files in the catalog 
 
-#Looking in the live_ip_folder name "data"
-def load_blocked_ips(live_ip_folder="data"):
+#Looking in the live_ip_folder name "Data"
+def load_blocked_ips(live_ip_folder="Data"):
     """
 
     Reads all IPs from the live IP folder and returns a set of blocked IPs.
@@ -119,3 +119,4 @@ def scan_folder_for_bad_ips(folder_to_scan="data", live_ip_folder="data"):
                     print(f"[!] BAD IP FOUND: {ip}")
                 else:
                     print(f"[OK] {ip}")
+
