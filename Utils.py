@@ -44,8 +44,9 @@ def check_log_permissions():
         print("Cannot write to log file")
         sys.exit(1)
 
-#Defines Ip regex. 
+#Defines Ip regex. Validating IPv4 addresses with regex. 
 def is_valid_ipv4(ip):
     # basic IPv4 regex
     pattern = r"^(?:25[0-5]|2[0-4]\d|1?\d?\d)(?:\.(?:25[0-5]|2[0-4]\d|1?\d?\d)){3}$"
     return re.match(pattern, ip) is not None
+
