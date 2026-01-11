@@ -144,6 +144,7 @@ def main():
     print("=" * 50)
     print("SOC IP Triage Tool - Interactive Mode")
     print("=" * 50)
+    # More user friendly if the reminder on how to stop the program comes after every user input
     print("Type 'exit' or 'quit' to stop the program\n")
 
     # Main loop - keep running forever
