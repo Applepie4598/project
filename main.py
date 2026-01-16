@@ -84,7 +84,7 @@ def print_result(result):
 
 
 def main():
-    # Setup argument parser
+    # Setup argument parser FLAG* 
     parser = argparse.ArgumentParser(description="SOC IP Triage Tool")
     parser.add_argument("-ipv4", help="Check a specific IPv4 address")
     parser.add_argument("-checklog", action="store_true", help="Show the log file")
@@ -191,6 +191,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
