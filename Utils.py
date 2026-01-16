@@ -2,7 +2,7 @@ import os
 import sys
 import platform
 import logging
-import re
+import re #Regex IPV4
 
 # paths for log folder. 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -49,4 +49,5 @@ def is_valid_ipv4(ip):
     # basic IPv4 regex
     pattern = r"^(?:25[0-5]|2[0-4]\d|1?\d?\d)(?:\.(?:25[0-5]|2[0-4]\d|1?\d?\d)){3}$"
     return re.match(pattern, ip) is not None
+
 
